@@ -6,7 +6,16 @@ Using as main database a Cloud SQL Postgres instance and also saving/querying da
 
 [![Run on Google Cloud](https://storage.googleapis.com/cloudrun/button.svg)](https://console.cloud.google.com/cloudshell/editor?shellonly=true&cloudshell_image=gcr.io/cloudrun/button&cloudshell_git_repo=https://github.com/alvarowolfx/cloud-run-django-rest-iot)
 
-## References
+
+### Demo 
+
+Rest API 
+![Api](./.github/images/api.png)
+
+Admin Interface
+![Admin](./.github/images/admin.png)
+
+### References
 
 * https://www.django-rest-framework.org/tutorial/quickstart/
 * https://cloud.google.com/sql/docs/postgres/quickstart-proxy-test
