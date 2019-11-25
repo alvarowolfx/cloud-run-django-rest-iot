@@ -4,6 +4,8 @@ Using as main database a Cloud SQL Postgres instance and also saving/querying da
 
 ️ ⚠️️️️**THIS IS A WORK IN PROGRESS** ⚠️
 
+[![Run on Google Cloud](https://storage.googleapis.com/cloudrun/button.svg)](https://console.cloud.google.com/cloudshell/editor?shellonly=true&cloudshell_image=gcr.io/cloudrun/button&cloudshell_git_repo=https://github.com/alvarowolfx/cloud-run-django-rest-iot)
+
 ## References
 
 * https://www.django-rest-framework.org/tutorial/quickstart/

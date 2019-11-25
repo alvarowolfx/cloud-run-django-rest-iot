@@ -1,0 +1,21 @@
+{
+  "name": "cloud-run-django-rest-iot",
+  "env": {
+    "DB_USER": {
+      "description": "Cloud SQL DB user",
+      "required": true
+    },
+    "DB_PASS": {
+      "description": "Cloud SQL DB password",
+      "required": true
+    },
+    "DB_NAME": {
+      "description": "Cloud SQL DB name",
+      "required": true
+    },
+    "DB_CONNECTION_NAME": {
+      "description": "Cloud SQL connection name",
+      "required": true
+    }
+  }
+}
