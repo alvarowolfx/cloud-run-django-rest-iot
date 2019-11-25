@@ -1,0 +1,7 @@
+Django==2.2.7
+djangorestframework==3.10.3
+gunicorn==20.0.2
+psycopg2==2.8.4
+pytz==2019.3
+sqlparse==0.3.0
+whitenoise==4.1.4
