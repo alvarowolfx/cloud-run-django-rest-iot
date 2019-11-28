@@ -1,5 +1,7 @@
 from rest_framework import serializers
 from rest_framework.reverse import reverse
+from datetime import timedelta
+from django.utils import timezone
 
 from .models import Farm, Tank, Device
 
@@ -35,3 +37,20 @@ class FarmSerializer(serializers.ModelSerializer):
     class Meta:
         model = Farm
         fields = '__all__'
+
+
+class DeviceTeletrySerializer(serializers.Serializer):
+    device_id = serializers.CharField(required=True, max_length=32)
+    distance = serializers.FloatField(required=True)
+    battery = serializers.FloatField(required=False)
+
+
+def week():
+    return timezone.now() - timedelta(days=7)
+
+
+class DeviceTeletryHistorySerializer(serializers.Serializer):
+    start = serializers.DateTimeField(required=False, default=week())
+    end = serializers.DateTimeField(required=False, default=timezone.now())
+    fields = serializers.ListField(
+        required=False, default=['distance', 'battery'])
