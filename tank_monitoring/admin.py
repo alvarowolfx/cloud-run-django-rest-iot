@@ -10,7 +10,7 @@ class FarmAdmin(admin.ModelAdmin):
 
 @admin.register(Tank)
 class TankAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'farm', 'latitude',
+    list_display = ('id', 'name', 'farm', 'height', 'latitude',
                     'longitude', 'created_at')
     search_fields = ('name', 'description')
     list_filter = ('farm',)

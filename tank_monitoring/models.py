@@ -17,6 +17,7 @@ class Tank(models.Model):
                              on_delete=models.CASCADE)
     name = models.CharField(max_length=32)
     description = models.CharField(blank=True, max_length=200)
+    height = models.FloatField()
     latitude = models.FloatField()
     longitude = models.FloatField()
     created_at = models.DateTimeField(auto_now_add=True)
