@@ -1,0 +1,6 @@
+# Env
+env/
+.github/
+.vscode/
+firmware/
+
