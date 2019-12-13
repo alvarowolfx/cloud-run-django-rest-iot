@@ -15,8 +15,17 @@ Rest API
 Admin Interface
 ![Admin](./.github/images/admin.png)
 
+### Schematic
+
+* ESP8266 WiFi Microcontroller
+* HC-SR04 Ultrasonic Sensor
+* Jumpers
+
+![Schematic](./.github/images/Schematic_bb.png)
+
 ### References
 
+* https://medium.com/google-cloud/connecting-micropython-devices-to-google-cloud-iot-core-3680e632681e
 * https://www.django-rest-framework.org/tutorial/quickstart/
 * https://cloud.google.com/sql/docs/postgres/quickstart-proxy-test
 * https://github.com/GoogleCloudPlatform/python-docs-samples
