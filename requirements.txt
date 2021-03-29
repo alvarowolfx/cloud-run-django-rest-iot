@@ -3,7 +3,7 @@ cachetools==3.1.1
 certifi==2019.9.11
 chardet==3.0.4
 Django==2.2.18
-djangorestframework==3.10.3
+djangorestframework==3.11.2
 google-api-core==1.14.3
 google-auth==1.7.1
 google-cloud-bigquery==1.22.0
