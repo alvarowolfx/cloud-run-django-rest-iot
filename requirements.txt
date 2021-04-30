@@ -24,5 +24,5 @@ requests==2.22.0
 rsa==4.1
 six==1.13.0
 sqlparse==0.3.0
-urllib3==1.25.7
+urllib3==1.25.8
 whitenoise==4.1.4
